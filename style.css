@@ -1,0 +1,30 @@
+html, body, * {
+	padding: 0;
+	margin: 0;
+	max-height: 100vh;
+}
+
+.container_timer {
+	display: flex;
+	padding: 50px;
+	gap: 50px;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.timer_info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+	box-shadow: 2px 2px 5px rgb(169, 169, 169);
+}
+
+.timer_info p {
+	font-size: 40px;
+	font-weight: 400;
+}
+
